@@ -64,6 +64,28 @@ Meeting w/ [**_HIPHOPLE_**](www.hiphople.com) staffs Heman(CEO), Beasel, Loner a
 
 
 ### 20180426
-- Parse debut album “genre” column and regroup genre. (Hiphop, RnB, POP, ROCK, ELECTRONIC, INDIE, ETC)
 - Parse “release date” column into timestamp
 - Troubleshoot SNS scraping with threading
+
+
+### 20180428
+- Fix the debut artist train dataset (from 2011-2018) and initiate collecting target data ( 1: worth a content , 0: not worth a content) from hiphople.com editors by google spreadsheet
+- re-input MySQL in utf-8 with decoded accent characters
+- Scrape rating AOTY.org
+- dash tutorial 2
+
+
+### 20180427
+- Troubleshoot getting data from MySQL server via SQLAlchemy
+- Parse debut album “genre” column and regroup genre. (Hiphop, RnB, Soul, Funk, POP)
+
+
+### 20180429
+- dash tutorial 3
+- Scrape SNS follower of each artist
+
+
+### 20180430
+- SNS follower scraping (2)
+- Scrape Buzz Billboard
+- Dash outline
