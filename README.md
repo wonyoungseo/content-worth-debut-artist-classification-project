@@ -30,4 +30,4 @@
 
 <br>
 
-###[프로젝트 타임라인 ( 클릭 ! )](https://github.com/lucaseo/debut-artist-go-or-no-go/blob/master/project_timeline.md)
+### [프로젝트 타임라인 ( 클릭 ! )](https://github.com/lucaseo/debut-artist-go-or-no-go/blob/master/project_timeline.md)
