@@ -176,7 +176,6 @@ Meeting with [**_HIPHOPLE_**](www.hiphople.com) staffs Heman(CEO), Beasel, Loner
 
 - Dash layout basic  
 	- tab function not officialy published (only exists in previous version.
-	- decided to go with drop-down function
 
 **Domain Knowledge**
 
@@ -192,8 +191,114 @@ Meeting with [**_HIPHOPLE_**](www.hiphople.com) staffs Heman(CEO), Beasel, Loner
 
 **Modeling**
 
+- KNN
+	- Basic baseline dataset : rating columns have NaN values, therefore not included in this trial.
+		- Parameter : `n_neighbors = 10'
+		- Test Accuracy : 82%
+		- Test Recall : 84%
+		- AUC : 74%
+
 - Decision Tree
 	- Basic baseline dataset : rating columns have NaN values, therefore not included in this trial.
 		- Parameter : `criterion='entropy', max_depth=5, min_samples_leaf=7`
-		- Test Accuracy : 88%
-		- Test Recall : 88%
+		- Test Precision : 62%
+		- Test Recall : 65%
+		- AUC : 86.5%
+
+
+**Visualization**
+
+- Drop Down instead of Tab function.
+
+		
+### 20180502
+
+**Modeling**
+
+- RandomForest
+	- Basic baseline dataset : rating columns have NaN values, therefore not included in this trial.
+		- Parameter : `criterion='entropy', n_estimators=10, max_depth=10,                               min_samples_split=5 , min_samples_leaf=5`
+		- Test Precision : 74%
+		- Test Recall : 67% 
+		- AUC : 91.3%
+
+- Extreme Three	
+	- Basic baseline dataset : rating columns have NaN values, therefore not included in this trial.
+		- Parameter : `criterion='entropy', n_estimators=10, max_depth=10,                      min_samples_split=5 , min_samples_leaf=5`
+		- Test Precision : 76%
+		- Test Recall : 43%
+		- AUC : 85.9%
+
+- GridSearch (Cross Validation)
+	- Best Parameter
+		- {'bootstrap': True,
+ 'class_weight': None,
+ 'criterion': 'entropy',
+ 'max_depth': 10,
+ 'max_features': 'auto',
+ 'max_leaf_nodes': None,
+ 'min_impurity_decrease': 0.0,
+ 'min_impurity_split': None,
+ 'min_samples_leaf': 8,
+ 'min_samples_split': 2,
+ 'min_weight_fraction_leaf': 0.0,
+ 'n_estimators': 10,
+ 'oob_score': False,
+ 'random_state': None,
+ 'verbose': 0,
+ 'warm_start': False}
+ 
+
+- GridSearch Applied Random Forest
+	- Test Precision : 84%
+	- Test Recall : 71%
+	- AUC : 93.1%
+
+<br>
+
+### 20180503
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+
+## Reference
+
+
+Industrial Knowledge
+
+- [HIPHOPLE](hiphople.com)
+- [Pitchfork](pitchfork.com)
+- [Chartmetric](chartmetric.io)
+- [Buzz Angle Music](buzzanglemusic.com)
+
+<br>
+
+Data Visualization Dashboard
+
+- [Bokeh vs Dash](https://blog.sicara.com/bokeh-dash-best-dashboard-framework-python-shiny-alternative-c5b576375f7f)
+- [Introducing Dash](https://medium.com/@plotlygraphs/introducing-dash-5ecf7191b503)
+- [Dash User Guide](https://dash.plot.ly)
+- [Dash Webinar Tutorial for ARGO Labs collaborators] (https://www.youtube.com/watch?v=yfWJXkySfe0)
+- [Plotly Forum](https://community.plot.ly)
+
+<br>
+
+Data Sources
+
+- [wikipedia.com](wikipedia.com)
+- [metacritic.com](metacritic.com)
+- [pitchfork.com](pitchfork.com)
+- [albumoftheyear.com](albumoftheyear.com)
+- [chartmetric.io](chartmetric.io)
+- [billboard.com](billboard.com)
+- [genius.com](genius.com)
+- [thesource.com](thesource.com)
+- [xxlmag.com](xxlmag.com)
