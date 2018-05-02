@@ -286,7 +286,7 @@ Data Visualization Dashboard
 - [Bokeh vs Dash](https://blog.sicara.com/bokeh-dash-best-dashboard-framework-python-shiny-alternative-c5b576375f7f)
 - [Introducing Dash](https://medium.com/@plotlygraphs/introducing-dash-5ecf7191b503)
 - [Dash User Guide](https://dash.plot.ly)
-- [Dash Webinar Tutorial for ARGO Labs collaborators] (https://www.youtube.com/watch?v=yfWJXkySfe0)
+- [Dash Webinar Tutorial for ARGO Labs collaborators](https://www.youtube.com/watch?v=yfWJXkySfe0)
 - [Plotly Forum](https://community.plot.ly)
 
 <br>
