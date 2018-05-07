@@ -3,10 +3,11 @@
 * * * *
 
 ### 20180413
-Meeting with [**_HIPHOPLE_**](www.hiphople.com) staffs Heman(CEO), Beasel, Loner and discussed needs in data analysis for the business
-- (1) Hongkong, Singapore, English Using Country K-Hiphop Buzz Analysis for South East Asian market trend analysis
-- (2) Quick quantitative indicator of rookie artists for content ideas
-- (3) Public reputation and trend analysis on particular artist for merchandise sales forcast
+Meeting with [**_HIPHOPLE_**](www.hiphople.com) staffs Heman(CEO), Beasel, Loner and discussed needs in data analysis for the business  
+
+- (1) Buzz Analysis in English-speaking countries (Hongkong, Singapore...) South East Asian K-Hiphop trend 
+- (2) Quick quantitative indicator of rookie artists for content ideas  
+- (3) Public reputation and trend analysis on particular artist for merchandise sales forcast  
 - (4) Kakao Plusfriend Chatbot development for Daily Music Chart from various streaming platforms
 
 <br>
@@ -191,24 +192,33 @@ Meeting with [**_HIPHOPLE_**](www.hiphople.com) staffs Heman(CEO), Beasel, Loner
 
 **Modeling**
 
-- KNN
-	- Basic baseline dataset : rating columns have NaN values, therefore not included in this trial.
-		- Parameter : `n_neighbors = 10'
-		- Test Accuracy : 82%
-		- Test Recall : 84%
-		- AUC : 74%
+- K-Nearest Neighbors (KNN)
+	- AUC : 0.83
 
-- Decision Tree
-	- Basic baseline dataset : rating columns have NaN values, therefore not included in this trial.
-		- Parameter : `criterion='entropy', max_depth=5, min_samples_leaf=7`
-		- Test Precision : 62%
-		- Test Recall : 65%
-		- AUC : 86.5%
+| KNN | Precision | Recall | f1-score |
+|---------------------|-----------|--------|----------|
+| 1                   | 0.79      | 0.43   | 0.55     |
+| 0                   | 0.85      | 0.97   | 0.91     |
+| avg / total   | 0.84      | 0.85   | 0.83     |
 
+<br>
+
+- Steepest Gradient Decent (SGD)
+	- AUC : 0.66
+
+| SGD | Precision | Recall | f1-score |
+|-----|-----------|--------|----------|
+| 1   | 0.31      | 0.92   | 0.46     |
+| 0   | 0.94      | 0.40   | 0.46     |
+| avg / total   | 0.80      | 0.52   | 0.54     |
+
+
+<br>
 
 **Visualization**
 
-- Drop Down instead of Tab function.
+- Stick with Dropdown instead of Tab function.
+	- Tab function currently not officially supported in Dash.
 
 <br>		
 		
@@ -216,52 +226,91 @@ Meeting with [**_HIPHOPLE_**](www.hiphople.com) staffs Heman(CEO), Beasel, Loner
 
 **Modeling**
 
+- Decision Tree  
+		- AUC : 0.86
+
+| Decision Tree | Precision | Recall | f1-score |
+|---------------|-----------|--------|----------|
+| 1             | 0.62      | 0.65   | 0.63     |
+| 0             | 0.92      | 0.91   | 0.91     |
+| avg / total   | 0.86      | 0.86   | 0.86     |
+
+<br>
+
 - RandomForest
-	- Basic baseline dataset : rating columns have NaN values, therefore not included in this trial.
-		- Parameter : `criterion='entropy', n_estimators=10, max_depth=10,                               min_samples_split=5 , min_samples_leaf=5`
-		- Test Precision : 74%
-		- Test Recall : 67% 
-		- AUC : 91.3%
+	- AUC : 0.913
 
-- Extreme Three	
-	- Basic baseline dataset : rating columns have NaN values, therefore not included in this trial.
-		- Parameter : `criterion='entropy', n_estimators=10, max_depth=10,                      min_samples_split=5 , min_samples_leaf=5`
-		- Test Precision : 76%
-		- Test Recall : 43%
-		- AUC : 85.9%
+| Random Forest | Precision | Recall | f1-score |
+|---------------|-----------|--------|----------|
+| 1             | 0.74      | 0.67   | 0.70     |
+| 0             | 0.93      | 0.95   | 0.94     |
+| avg / total   | 0.89      | 0.89   | 0.89     |
 
-- GridSearch (Cross Validation)
-	- Best Parameter
-		- {'bootstrap': True,
- 'class_weight': None,
- 'criterion': 'entropy',
- 'max_depth': 10,
- 'max_features': 'auto',
- 'max_leaf_nodes': None,
- 'min_impurity_decrease': 0.0,
- 'min_impurity_split': None,
- 'min_samples_leaf': 8,
- 'min_samples_split': 2,
- 'min_weight_fraction_leaf': 0.0,
- 'n_estimators': 10,
- 'oob_score': False,
- 'random_state': None,
- 'verbose': 0,
- 'warm_start': False}
+<br>
+
+- Extreme Three  
+	- AUC : 0.859
+
+| Extra Tree  | Precision | Recall | f1-score |
+|-------------|-----------|--------|----------|
+| 1           | 0.76      | 0.43   | 0.55     |
+| 0           | 0.88      | 0.97   | 0.92     |
+| avg / total | 0.86      | 0.87   | 0.85     |
  
+<br>
 
 - GridSearch Applied Random Forest
-	- Test Precision : 84%
-	- Test Recall : 71%
 	- AUC : 93.1%
+
+| Random Forest (Grid Search)  | Precision | Recall | f1-score |
+|-------------|-----------|--------|----------|
+| 1           | 0.84      | 0.71   | 0.77     |
+| 0           | 0.93      | 0.97   | 0.95     |
+| avg / total | 0.92      | 0.92   | 0.92     |
 
 <br>
 
 ### 20180503
 
+**Visualization**
+
+- 5 types of options in dropdown menu connected with callback function in order to return corresponding outputs.
+
+<br>
+
 ### 20180504
 
+
+- Gradient Boost
+	- AUC : 0.928
+
+| Gradient Boosting | Precision | Recall | f1-score |
+|-------------------|-----------|--------|----------|
+| 1                 | 0.69      | 0.57   | 0.62     |
+| 0                 | 0.88      | 0.57   | 0.90     |
+| avg / total       | 0.84      | 0.85   | 0.84     |
+
+<br>
+
+- XGBoost
+	- AUC : 0.933
+
+| XGB         | Precision | Recall | f1-score |
+|-------------|-----------|--------|----------|
+| 1           | 0.78      | 0.64   | 0.70     |
+| 0           | 0.90      | 0.95   | 0.92     |
+| avg / total | 0.87      | 0.88   | 0.87     |
+
+<br>
+
 ### 20180506
+
+- Dash App Layout
+	- Heatmap
+	- Histogram
+	- Barplot
+	- Horizontal Barplot
+	- Pie Chart
 
 
 
