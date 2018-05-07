@@ -98,10 +98,6 @@ Meeting with [**_HIPHOPLE_**](www.hiphople.com) staffs Heman(CEO), Beasel, Loner
 - Scrape news article buzz _The Source Magazine_ (on hold due to session expiration)
 - Scrape debut album Wikipedia (2nd attempt with genre and release date)
 
-**Visualization**
-
-- Learn how to deploy dash app with Heroku
-
 **Data Cleaning**
 
 - Impute missing genre manually
@@ -260,7 +256,7 @@ Meeting with [**_HIPHOPLE_**](www.hiphople.com) staffs Heman(CEO), Beasel, Loner
 <br>
 
 - GridSearch Applied Random Forest
-	- AUC : 93.1%
+	- AUC : 0.931
 
 | Random Forest (Grid Search)  | Precision | Recall | f1-score |
 |-------------|-----------|--------|----------|
@@ -305,6 +301,18 @@ Meeting with [**_HIPHOPLE_**](www.hiphople.com) staffs Heman(CEO), Beasel, Loner
 
 ### 20180506
 
+-
+
+<br>
+
+### 20180507
+
+**Database**
+
+- Practice attempt on fetching data from AWS MySQL database through ORM (SQLAlchemy)
+
+**Visualization**
+
 - Dash App Layout
 	- Heatmap
 	- Histogram
@@ -312,9 +320,7 @@ Meeting with [**_HIPHOPLE_**](www.hiphople.com) staffs Heman(CEO), Beasel, Loner
 	- Horizontal Barplot
 	- Pie Chart
 
-
-
-
+- Deploy dash app with Heroku
 
 
 

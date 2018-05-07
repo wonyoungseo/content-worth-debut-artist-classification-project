@@ -459,7 +459,7 @@ Markdown tesing 2
                   "data": [
                     {
                       "values": by_sns_platform_1,
-                      "labels": df_1[['twitter', 'instagram', 'facebook', 'soundcloud', 'spotify', 'youtube']].columns,
+                      "labels": ['A', 'B', 'C', 'D', 'E', 'F'],
                       "domain": {"x": [0, .48]},
                       "name": "Published",
                       "hoverinfo":"label+percent+name",
@@ -469,7 +469,7 @@ Markdown tesing 2
                     },
                     {
                       "values": by_sns_platform_0,
-                      "labels": df_0[['twitter', 'instagram', 'facebook', 'soundcloud', 'spotify', 'youtube']].columns,
+                      "labels": ['A', 'B', 'C', 'D', 'E', 'F'],
                       "textposition":"inside",
                       "domain": {"x": [.52, 1]},
                       "name": "Not Published",
