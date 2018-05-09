@@ -4,6 +4,8 @@
 
 ### [프로젝트 슬라이드 ( 클릭 ! )](https://www.slideshare.net/WonyoungSEO2/contentworth-debut-artist-flassification-project)
 
+### [프로젝터 데이터 시각화 대쉬보드 웹어플리케이션 ( 클릭 !)](http://le-rookie-clf.herokuapp.com)
+
 ### [프로젝트 타임라인 ( 클릭 ! )](https://github.com/lucaseo/debut-artist-go-or-no-go/blob/master/project_timeline.md)
 
 <br>
