@@ -327,54 +327,16 @@ Meeting with [**_HIPHOPLE_**](www.hiphople.com) staffs Heman(CEO), Beasel, Loner
 
 **Modeling**
 
-- Trouble shoot "Imbalanced Problem" : Undersampling
+- Troubleshoot "Imbalanced Problem" : Undersampling
 	- `RandomUnderSampler`
 
-- Perform `GridSearchCV` to tuen best Hyper Parameter
-
-
-
-
-
-<br>
 <br>
 
-## Reference
+### 20180509
 
+**Prediction**
 
-Industrial Knowledge
+- Perform `GridSearchCV` to tune best Hyper Parameter
 
-- [HIPHOPLE](hiphople.com)
-- [Pitchfork](pitchfork.com)
-- [Chartmetric](chartmetric.io)
-- [Buzz Angle Music](buzzanglemusic.com)
+- Predict New Test Data !
 
-<br>
-
-Data Visualization Dashboard
-
-- [Bokeh vs Dash](https://blog.sicara.com/bokeh-dash-best-dashboard-framework-python-shiny-alternative-c5b576375f7f)
-- [Introducing Dash](https://medium.com/@plotlygraphs/introducing-dash-5ecf7191b503)
-- [Dash User Guide](https://dash.plot.ly)
-- [Dash Webinar Tutorial for ARGO Labs collaborators](https://www.youtube.com/watch?v=yfWJXkySfe0)
-- [Plotly Forum](https://community.plot.ly)
-
-<br>
-
-Data Sources
-
-- [wikipedia.com](wikipedia.com)
-- [metacritic.com](metacritic.com)
-- [pitchfork.com](pitchfork.com)
-- [albumoftheyear.com](albumoftheyear.com)
-- [chartmetric.io](chartmetric.io)
-- [billboard.com](billboard.com)
-- [genius.com](genius.com)
-- [thesource.com](thesource.com)
-- [xxlmag.com](xxlmag.com)
-
-<br>
-
-Reference List  
-
-- [https://www.kaggle.com/ktattan/recall-97-with-smote-random-forest-tsne](https://www.kaggle.com/ktattan/recall-97-with-smote-random-forest-tsne)
