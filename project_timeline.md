@@ -301,7 +301,7 @@ Meeting with [**_HIPHOPLE_**](www.hiphople.com) staffs Heman(CEO), Beasel, Loner
 
 ### 20180506
 
--
+
 
 <br>
 
@@ -314,13 +314,23 @@ Meeting with [**_HIPHOPLE_**](www.hiphople.com) staffs Heman(CEO), Beasel, Loner
 **Visualization**
 
 - Dash App Layout
-	- Heatmap
 	- Histogram
 	- Barplot
 	- Horizontal Barplot
 	- Pie Chart
 
 - Deploy dash app with Heroku
+
+<br>
+
+### 20180508
+
+**Modeling**
+
+- Trouble shoot "Imbalanced Problem" : Undersampling
+	- `RandomUnderSampler`
+
+- Perform `GridSearchCV` to tuen best Hyper Parameter
 
 
 
@@ -362,3 +372,9 @@ Data Sources
 - [genius.com](genius.com)
 - [thesource.com](thesource.com)
 - [xxlmag.com](xxlmag.com)
+
+<br>
+
+Reference List  
+
+- [https://www.kaggle.com/ktattan/recall-97-with-smote-random-forest-tsne](https://www.kaggle.com/ktattan/recall-97-with-smote-random-forest-tsne)
