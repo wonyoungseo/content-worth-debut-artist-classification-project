@@ -2,6 +2,13 @@
 
 외국 흑인음악 전문 웹메거진 HIPHOPLE ( http://www.hiphople.com ) 에디터들에게 제공될 목적으로 진행 중인 프로젝트입니다.
 
+### [프로젝트 슬라이드 ( 클릭 ! )](https://www.slideshare.net/WonyoungSEO2/contentworth-debut-artist-flassification-project)
+
+### [프로젝트 타임라인 ( 클릭 ! )](https://github.com/lucaseo/debut-artist-go-or-no-go/blob/master/project_timeline.md)
+
+<br>
+<br>
+
 ### 기능 :
 신인 뮤지션의 데뷔앨범에 대한 웹 매거진 콘텐츠를 제작 여부를 예측
 
@@ -29,12 +36,9 @@
 >- Heroku  
 
 <br>
-
-### [프로젝트 타임라인 ( 클릭 ! )](https://github.com/lucaseo/debut-artist-go-or-no-go/blob/master/project_timeline.md)
-
-### [프로젝터 슬라이드 ( 클릭 ! )]()
-
-
+<br>
+<br>
+<br>
 
 ### Reference
 
