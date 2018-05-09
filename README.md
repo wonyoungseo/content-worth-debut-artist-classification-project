@@ -32,35 +32,39 @@
 
 ### [프로젝트 타임라인 ( 클릭 ! )](https://github.com/lucaseo/debut-artist-go-or-no-go/blob/master/project_timeline.md)
 
+### [프로젝터 슬라이드 ( 클릭 ! )]()
 
 
-### Workflow
 
-#### 니즈 도출
+### Reference
 
-#### 데이터 수집
+**Industrial Knowledge**
 
-- 2011~현재 사이 발매 된 데뷔 앨범
-	- Category : Debut Album by Year
-- 평점
-	- Metacritic
-	- Pitchfork
-	- Album of the Year
-- 해당 아티스트 SNS 팔로워 수
-	- Twitter
-	- Instagram
-	- Facebook
-	- Youtube
-	- Soundcloud
-	- Spotify
-- 해당 아티스트, 앨범 관련 기사 출현 수
-	- Genius
-	- Billboard
-	- The Source Magazine
-	- XXL Magazine
+- [HIPHOPLE](hiphople.com)
+- [Pitchfork](pitchfork.com)
+- [Chartmetric](chartmetric.io)
+- [Buzz Angle Music](buzzanglemusic.com)
 
-#### 데이터 전처리
+<br>
 
-#### 종속 변수 라벨링
+**Data Sources**
 
-- 힙합엘이 에디터 4인의 표기
+- [wikipedia.com](wikipedia.com)
+- [metacritic.com](metacritic.com)
+- [pitchfork.com](pitchfork.com)
+- [albumoftheyear.com](albumoftheyear.com)
+- [chartmetric.io](chartmetric.io)
+- [billboard.com](billboard.com)
+- [genius.com](genius.com)
+- [thesource.com](thesource.com)
+- [xxlmag.com](xxlmag.com)
+
+<br>
+
+**Data Visualization Dashboard**
+
+- [Bokeh vs Dash](https://blog.sicara.com/bokeh-dash-best-dashboard-framework-python-shiny-alternative-c5b576375f7f)
+- [Introducing Dash](https://medium.com/@plotlygraphs/introducing-dash-5ecf7191b503)
+- [Dash User Guide](https://dash.plot.ly)
+- [Dash Webinar Tutorial for ARGO Labs collaborators](https://www.youtube.com/watch?v=yfWJXkySfe0)
+- [Plotly Forum](https://community.plot.ly)
