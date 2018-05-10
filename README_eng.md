@@ -1,22 +1,22 @@
 # Project Ovierview KOR | ENG
 
-외국 흑인음악 전문 웹메거진 HIPHOPLE ( http://www.hiphople.com ) 에디터들에게 제공될 목적으로 진행 중인 프로젝트입니다.
+The following project is designed to assist editors of HIPHOPLE ( http://www.hiphople.com ) Hiphop/R&B focused web magazine platform published in South Korea.
 
-### [프로젝트 슬라이드 ( 클릭 ! )](https://www.slideshare.net/secret/1dxnLsgdtsSspj)
+### [Project Descriptoin Slides (KOR)](https://www.slideshare.net/secret/1dxnLsgdtsSspj) - ENG TBU
 
-### [프로젝터 데이터 시각화 대쉬보드 웹어플리케이션 ( 클릭 !)](http://le-rookie-clf.herokuapp.com)
+### [Data Visualization Web Application (KOR)](http://le-rookie-clf.herokuapp.com)
 
-### [프로젝트 타임라인 ( 클릭 ! )](https://github.com/lucaseo/debut-artist-go-or-no-go/blob/master/project_timeline.md)
+### [Project Timeline (ENG)](https://github.com/lucaseo/debut-artist-go-or-no-go/blob/master/project_timeline.md)
 
 <br>
 <br>
 
-### 기능 :
-신인 뮤지션의 데뷔앨범에 대한 웹 매거진 콘텐츠를 제작 여부를 예측
+### Core Function :
+Predict whether a rookie musician with debut album is worth creating related articles/features/SNS promotions for the web magazine.
 
-### 기대효과 :
-- 에디터들의 컨텐츠 제작 대상 뮤지션을 선정하는 의사결정 서포트
-- 신인 뮤지션에 대한 우선순위 선정으로 리서치 시간을 단축
+### Expectation :
+- Support decision making process of editors when selecting topics of rookie musicians. 
+- Reduce time spent on researching unknown artists by setting up priorities.
 
 ### Skillset:
 >**Data collection & modeling**  
