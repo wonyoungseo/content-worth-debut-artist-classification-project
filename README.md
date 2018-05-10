@@ -2,7 +2,7 @@
 
 외국 흑인음악 전문 웹메거진 HIPHOPLE ( http://www.hiphople.com ) 에디터들에게 제공될 목적으로 진행 중인 프로젝트입니다.
 
-### [프로젝트 슬라이드 ( 클릭 ! )](https://www.slideshare.net/WonyoungSEO2/contentworth-debut-artist-flassification-project)
+### [프로젝트 슬라이드 ( 클릭 ! )](https://www.slideshare.net/secret/1dxnLsgdtsSspj)
 
 ### [프로젝터 데이터 시각화 대쉬보드 웹어플리케이션 ( 클릭 !)](http://le-rookie-clf.herokuapp.com)
 
