@@ -1,4 +1,4 @@
-# Project Ovierview ENG | [KOR] (https://github.com/lucaseo/content-worth-debut-artist-classification-project/blob/master/README.md) 
+# Project Ovierview ENG | [KOR](https://github.com/lucaseo/content-worth-debut-artist-classification-project/blob/master/README.md) 
 
 <br>
 
