@@ -35,8 +35,8 @@ Predict whether a rookie musician with debut album is worth creating related art
 
 >**Web Visualization Dashboard**  
 >- Dash  
+>- Plotly  
 >- HTML  
->- CSS  
 >- Heroku  
 
 <br>

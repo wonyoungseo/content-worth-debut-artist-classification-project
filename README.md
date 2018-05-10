@@ -35,8 +35,8 @@
 
 >**Web Visualization Dashboard**  
 >- Dash  
+>- Plotly  
 >- HTML  
->- CSS  
 >- Heroku  
 
 <br>
