@@ -4,11 +4,11 @@
 
 The following project is designed to assist editors of HIPHOPLE ( http://www.hiphople.com ) Hiphop/R&B focused web magazine platform published in South Korea.
 
-### [Project Descriptoin Slides (KOR)](https://www.slideshare.net/secret/1dxnLsgdtsSspj) - ENG TBU
+### [Project Description Slides (KOR)](https://www.slideshare.net/secret/1dxnLsgdtsSspj) - ENG TBU
 
 ### [Data Visualization Web Application (KOR)](http://le-rookie-clf.herokuapp.com)
 
-### [Project Timeline (ENG)](https://github.com/lucaseo/debut-artist-go-or-no-go/blob/master/project_timeline.md)
+### [Project Timeline & Log (ENG)](https://github.com/lucaseo/debut-artist-go-or-no-go/blob/master/project_timeline.md)
 
 <br>
 <br>
@@ -16,7 +16,7 @@ The following project is designed to assist editors of HIPHOPLE ( http://www.hip
 ### Core Function :
 Predict whether a rookie musician with debut album is worth creating related articles/features/SNS promotions for the web magazine.
 
-### Expectation :
+### Goals & Expectations :
 - Support decision making process of editors when selecting topics of rookie musicians. 
 - Reduce time spent on researching unknown artists by setting up priorities.
 
