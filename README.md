@@ -1,4 +1,6 @@
-# Project Ovierview KOR | ENG
+# Project Ovierview KOR | [ENG](https://github.com/lucaseo/content-worth-debut-artist-classification-project/blob/master/README_eng.md)
+
+<br>
 
 외국 흑인음악 전문 웹메거진 HIPHOPLE ( http://www.hiphople.com ) 에디터들에게 제공될 목적으로 진행 중인 프로젝트입니다.
 

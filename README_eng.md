@@ -1,4 +1,6 @@
-# Project Ovierview KOR | ENG
+# Project Ovierview [KOR] (https://github.com/lucaseo/content-worth-debut-artist-classification-project/blob/master/README.md)| ENG
+
+<br>
 
 The following project is designed to assist editors of HIPHOPLE ( http://www.hiphople.com ) Hiphop/R&B focused web magazine platform published in South Korea.
 
