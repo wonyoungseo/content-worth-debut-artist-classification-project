@@ -72,7 +72,7 @@ app.layout = html.Div(
                         'padding-right' : 15
                     },
                 )
-            ], href='https://www.slideshare.net/WonyoungSEO2/contentworth-debut-artist-flassification-project')
+            ], href='https://www.slideshare.net/secret/1dxnLsgdtsSspj')
         ),
 
         # Github
@@ -91,7 +91,7 @@ app.layout = html.Div(
                         'padding-right' : 15
                     },
                 )
-            ], href='https://github.com/lucaseo/debut-artist-go-or-no-go')
+            ], href='https://github.com/lucaseo/content-worth-debut-artist-classification-project')
         ),
 
         # Hiphople.com
@@ -126,12 +126,12 @@ app.layout = html.Div(
         html.Div(
             dcc.Dropdown(
                     options=[
-                        {'label': 'Genres Frequency', 'value': 1},
-                        {'label': 'Online Aticle Buzz', 'value': 2},
+                        {'label': 'Genres Counts Comparison', 'value': 1},
+                        {'label': 'Online Aticle Buzz Frequency', 'value': 2},
                         {'label': 'Average Ratings', 'value': 3},
-                        {'label': 'Single Count', 'value': 4},
-                        {'label': 'SNS Followers', 'value': 5},
-                        {'label': 'Model Feature Importance', 'value': 6},
+                        {'label': 'Single Count Distribution', 'value': 4},
+                        {'label': 'SNS Followers Comparison', 'value': 5},
+                        {'label': 'Model Feature Importances', 'value': 6},
                     ],
                 value=6,   # indicate fixed value if you want to view certain label at the beginning
                 id = 'dropdown',
@@ -201,9 +201,6 @@ def display_content(value):
 
             html.Div(
                 dcc.Markdown('''
-장르의 비교입니다.\n
-컨텐츠로 제작이 된 아티스트의 경우 힙합의 빈도가 가장 높았고,\n
-소울, 펑크 음악은 전체적으로 정보량이 적은 것을 확인할 수 있습니다.\n
 * * * *
                         ''')
                     ),
@@ -219,7 +216,7 @@ def display_content(value):
                                     'l': 50,
                                     'r': 50,
                                     'b': 50,
-                                    't': 0
+                                    't': 100
                                 },
                                 'xaxis' : dict(
                                     title='Published',
@@ -247,7 +244,7 @@ def display_content(value):
                                     'l': 50,
                                     'r': 50,
                                     'b': 50,
-                                    't': 0
+                                    't': 100
                                 },
                                 'xaxis' : dict(
                                     title='Not Published',
@@ -325,8 +322,6 @@ def display_content(value):
 
                         html.Div(
                             dcc.Markdown('''
-대중음악 / 흑인음악 매체의 평균 관련기사 빈도 비교입니다.\n
-XXL 매거진에서의 기사량이 압도적으로 많으며, 그 다음으로는 The Source 매거진이 있습니다.\n
 * * * *
                         ''')
                     ),
@@ -334,6 +329,7 @@ XXL 매거진에서의 기사량이 압도적으로 많으며, 그 다음으로�
                 dcc.Graph(
                     id='buzz_bar_stack',
                     figure={
+                        'title' : 'Article Buzz Count',
                         'data' : data,
                         'layout' : layout
                         },
@@ -361,9 +357,6 @@ XXL 매거진에서의 기사량이 압도적으로 많으며, 그 다음으로�
 
                         html.Div(
                             dcc.Markdown('''
-대중음악 매체에서 부여한 앨범의 **평균 평점 비교**입니다.\n
-소수의 아티스트들이 매체의 주목과 함께 평점을 부여받았고, 컨텐츠로 다루어졌습니다.\n
-컨텐츠로 다뤄지지 못 한 아티스트의 경우 마찬가지로 평균 평점이 매우 저조합니다.
 * * * *
                         ''')
                     ),
@@ -436,8 +429,6 @@ XXL 매거진에서의 기사량이 압도적으로 많으며, 그 다음으로�
 
                         html.Div(
                             dcc.Markdown('''
-정식 앨범 발매 전 공개된 **싱글 앨범 갯수의 분포 비교**입니다.\n
-싱글 앨범을 발매하지 않은 부분 (0개) 에서 두 그룹의 차이를 확인할 수 있습니다.
 * * * *
                         ''')
                     ),
@@ -515,8 +506,6 @@ XXL 매거진에서의 기사량이 압도적으로 많으며, 그 다음으로�
         return html.Div([
             html.Div(
                 dcc.Markdown('''
-**SNS 플랫폼의 팔로워 비교**입니다.
-
 * * * *
                         ''')
                     ),
@@ -544,7 +533,8 @@ XXL 매거진에서의 기사량이 압도적으로 많으며, 그 다음으로�
                       "name": "Not Published",
                       "hoverinfo":"label+percent+name",
                       "hole": .5,
-                      "type": "pie"
+                      "type": "pie",
+                      "marker" : {"colors":color_palette_1}
                     }],
                   "layout": {
                         "title" : "SNS Followers Comparison",
@@ -586,7 +576,7 @@ XXL 매거진에서의 기사량이 압도적으로 많으며, 그 다음으로�
                             'l': 50,
                             'r': 50,
                             'b': 50,
-                            't': 0
+                            't': 50
                         },
                         'legend': {'x': 0, 'y': 1}
                     }
@@ -611,9 +601,6 @@ XXL 매거진에서의 기사량이 압도적으로 많으며, 그 다음으로�
         return html.Div([
                     html.Div(
                         dcc.Markdown('''
-현재 이진 분류 모델에서 도출한 각 **변수의 중요도**입니다.  \n
-사운드클라우드, 스포티파이, 트위터 팔로워의 수, The Source 매거진의 관련 기사 빈도 수가 큰 영향을 많이 끼쳤고, \n
-반면에 장르의 구분과 Billboard, Genius 매체의 관련 기사 빈도 수는 중요도가 낮음을 확인할 수 있습니다.
 * * * *
                         ''')
                     ),

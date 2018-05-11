@@ -4,11 +4,13 @@
 
 The following project is designed to assist editors of HIPHOPLE ( http://www.hiphople.com ) Hiphop/R&B focused web magazine platform published in South Korea.
 
-### [Project Description Slides (KOR)](https://www.slideshare.net/secret/1dxnLsgdtsSspj) - ENG TBU
-
-### [Data Visualization Web Application (KOR)](http://le-rookie-clf.herokuapp.com)
+### [Project Description Slides (ENG)](https://www.slideshare.net/WonyoungSEO2/project-overview-eng)
 
 ### [Project Timeline & Log (ENG)](https://github.com/lucaseo/debut-artist-go-or-no-go/blob/master/project_timeline.md)
+
+### [Data Visualization Web Application](http://le-rookie-clf.herokuapp.com)
+
+
 
 <br>
 <br>
